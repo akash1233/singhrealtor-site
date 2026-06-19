@@ -29,7 +29,7 @@ export const heroSlides = [
     caption: "Sugar Hill",
   },
   {
-    src: "https://images.unsplash.com/photo-1479834340263-ac5f4a09dceb?w=1920&q=80",
+    src: "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=1920&q=80",
     alt: "Quiet suburban neighborhood street",
     caption: "Gwinnett County",
   },
@@ -104,7 +104,7 @@ export const featuredListings = [
     baths: 3,
     sqft: 2100,
     image:
-      "https://images.unsplash.com/photo-1605146768809-93dc269ca491?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80",
   },
   {
     id: "6",
@@ -127,7 +127,7 @@ export const neighborhoods = [
     name: "Buford",
     description: "Historic downtown, Lake Lanier access, and growing family neighborhoods.",
     image:
-      "https://images.unsplash.com/photo-1449844908441-882e2476eb87?w=800&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
   },
   {
     slug: "suwanee",
@@ -162,7 +162,7 @@ export const neighborhoods = [
     name: "Cumming",
     description: "Forsyth County living with parks, lake recreation, and new construction.",
     image:
-      "https://images.unsplash.com/photo-1479834340263-ac5f4a09dceb?w=800&q=80",
+      "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=800&q=80",
   },
 ] as const;
 
