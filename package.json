@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "deploy:vercel": "vercel deploy --prod --yes",
+    "push:vercel": "git push origin main && vercel deploy --prod --yes"
   },
   "dependencies": {
     "@base-ui/react": "^1.6.0",
@@ -31,6 +33,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vercel": "^54.14.2"
   }
 }
