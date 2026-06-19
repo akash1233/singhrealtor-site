@@ -2,7 +2,7 @@
 
 export const SITE_NAME = "Singh Realtor LLC";
 export const AGENT_NAME = "Shweta Singh";
-export const SITE_EMAIL = "shweta@shwetasinghrealty.com";
+export const SITE_EMAIL = "shweta03singh@gmail.com";
 
 export const SITE_PHONE = "9802547720";
 export const SITE_PHONE_DISPLAY = "(980) 254-7720";
