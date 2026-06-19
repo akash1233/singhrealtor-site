@@ -3,6 +3,7 @@ import { Cormorant_Garamond, Inter } from "next/font/google";
 import { SITE_NAME } from "@/lib/site-content";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
+import { RoofAiChat } from "@/components/layout/RoofAiChat";
 import { UmamiAnalytics } from "@/components/layout/UmamiAnalytics";
 import "./globals.css";
 
@@ -48,6 +49,7 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <Footer />
         <UmamiAnalytics />
+        <RoofAiChat />
       </body>
     </html>
   );
