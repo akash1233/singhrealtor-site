@@ -10,7 +10,7 @@ export function NeighborhoodGrid() {
         <SectionHeading
           eyebrow="Communities"
           title="Neighborhoods We Serve"
-          subtitle="Explore the Northeast Atlanta suburbs where Shweta helps buyers and sellers every day."
+          subtitle="Explore the Northeast Atlanta suburbs where Singh Realtor LLC helps buyers and sellers every day."
           align="center"
           className="mx-auto"
         />

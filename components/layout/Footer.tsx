@@ -3,6 +3,8 @@ import { Mail, MapPin, Phone } from "lucide-react";
 import {
   SERVICE_AREA_DETAIL,
   SERVICE_CITIES,
+  SITE_EMAIL,
+  SITE_NAME,
   SITE_PHONE_DISPLAY,
   SITE_PHONE_TEL,
 } from "@/lib/site-content";
@@ -15,7 +17,7 @@ export function Footer() {
       <div className="border-b border-white/10">
         <div className="mx-auto grid max-w-7xl gap-12 px-4 py-16 sm:px-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-2">
-            <p className="font-heading text-2xl font-light">Shweta Singh Realty</p>
+            <p className="font-heading text-2xl font-light">{SITE_NAME}</p>
             <p className="mt-4 max-w-md text-sm leading-relaxed text-navy-200">
               Helping buyers and sellers find the right home across the Northeast
               Atlanta suburbs — Gwinnett and Forsyth County communities.
@@ -58,10 +60,10 @@ export function Footer() {
               <li className="flex items-center gap-3">
                 <Mail className="size-4 shrink-0 text-gold-400" />
                 <a
-                  href="mailto:shweta@shwetasinghrealty.com"
+                  href={`mailto:${SITE_EMAIL}`}
                   className="hover:text-white"
                 >
-                  shweta@shwetasinghrealty.com
+                  {SITE_EMAIL}
                 </a>
               </li>
             </ul>
@@ -70,7 +72,7 @@ export function Footer() {
       </div>
 
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-6 text-center text-xs text-navy-300 sm:px-8 md:flex-row md:text-left">
-        <p>© {year} Shweta Singh Realty. All rights reserved.</p>
+        <p>© {year} {SITE_NAME}. All rights reserved.</p>
         <p>Equal Housing Opportunity · Georgia Real Estate License</p>
       </div>
     </footer>

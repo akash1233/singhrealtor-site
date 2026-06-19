@@ -5,14 +5,15 @@ import { PageContent, PageHero } from "@/components/layout/PageHero";
 import {
   SERVICE_AREA_DETAIL,
   SERVICE_CITIES,
+  SITE_EMAIL,
+  SITE_NAME,
   SITE_PHONE_DISPLAY,
   SITE_PHONE_TEL,
 } from "@/lib/site-content";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description:
-    "Contact Shweta Singh for buying or selling homes in Northeast Atlanta suburbs — Gwinnett and Forsyth County.",
+  description: `Contact ${SITE_NAME} for buying or selling homes in Northeast Atlanta suburbs — Gwinnett and Forsyth County.`,
 };
 
 export default function ContactPage() {
@@ -20,7 +21,7 @@ export default function ContactPage() {
     <>
       <PageHero
         title="Contact"
-        subtitle="Whether you're buying your first home or selling your current one, Shweta is here to help."
+        subtitle="Whether you're buying your first home or selling your current one, we're here to help."
         image="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1920&q=80"
         imageAlt="Family home with front porch"
       />
@@ -52,10 +53,10 @@ export default function ContactPage() {
                 <li className="flex items-center gap-3">
                   <Mail className="size-4 shrink-0 text-gold-600" />
                   <a
-                    href="mailto:shweta@shwetasinghrealty.com"
+                    href={`mailto:${SITE_EMAIL}`}
                     className="transition-colors hover:text-navy-900"
                   >
-                    shweta@shwetasinghrealty.com
+                    {SITE_EMAIL}
                   </a>
                 </li>
               </ul>
@@ -66,8 +67,8 @@ export default function ContactPage() {
                 Response within one business day
               </p>
               <p className="mt-2 text-sm text-muted-foreground">
-                Shweta personally reviews every inquiry and will follow up to
-                understand your goals before recommending next steps.
+                {SITE_NAME} personally reviews every inquiry and will follow up
+                to understand your goals before recommending next steps.
               </p>
             </div>
           </div>

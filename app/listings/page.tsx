@@ -73,7 +73,7 @@ export default async function ListingsPage({
             <p className="mt-2 text-sm text-muted-foreground">
               Try adjusting your filters or{" "}
               <a href="/contact" className="text-navy-900 underline">
-                contact Shweta
+                contact us
               </a>{" "}
               for off-market options.
             </p>

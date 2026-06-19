@@ -1,19 +1,23 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { agentPhoto, SERVICE_CITIES } from "@/lib/site-content";
+import {
+  agentPhoto,
+  AGENT_NAME,
+  SERVICE_CITIES,
+  SITE_NAME,
+} from "@/lib/site-content";
 import { PrimaryLink, PageContent, PageHero } from "@/components/layout/PageHero";
 
 export const metadata: Metadata = {
-  title: "About Shweta Singh",
-  description:
-    "Learn about Shweta Singh — your trusted real estate agent serving Northeast Atlanta suburbs in Gwinnett and Forsyth County.",
+  title: "About Us",
+  description: `${SITE_NAME} — trusted real estate serving Northeast Atlanta suburbs in Gwinnett and Forsyth County.`,
 };
 
 export default function AboutPage() {
   return (
     <>
       <PageHero
-        title="About Shweta Singh"
+        title={`About ${SITE_NAME}`}
         subtitle="Local expertise for buyers and sellers across Northeast Atlanta suburbs."
         image="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1920&q=80"
         imageAlt="Suburban home in Northeast Atlanta"
@@ -32,26 +36,26 @@ export default function AboutPage() {
 
           <div>
             <p className="text-xs font-medium uppercase tracking-[0.3em] text-gold-600">
-              Your Northeast Atlanta Agent
+              {SITE_NAME}
             </p>
             <h2 className="mt-4 font-heading text-3xl font-light text-navy-900 sm:text-4xl">
               Helping families find the right home
             </h2>
             <div className="mt-8 space-y-5 leading-relaxed text-muted-foreground">
               <p>
-                Shweta Singh is a real estate professional serving the Northeast
-                Atlanta suburbs in Gwinnett and Forsyth County. She helps buyers
-                and sellers navigate the market with clear advice, responsive
-                communication, and genuine care for every client.
+                {SITE_NAME} serves buyers and sellers across the Northeast Atlanta
+                suburbs in Gwinnett and Forsyth County. Led by {AGENT_NAME}, our
+                team helps clients navigate the market with clear advice, responsive
+                communication, and genuine care.
               </p>
               <p>
                 Whether you&apos;re buying your first home, upsizing for a
                 growing family, relocating to the area, or selling a home
-                you&apos;ve loved for years, Shweta is there to guide you
-                through each step.
+                you&apos;ve loved for years, we are there to guide you through
+                each step.
               </p>
               <p>
-                She works across {SERVICE_CITIES} — matching clients with
+                We work across {SERVICE_CITIES} — matching clients with
                 neighborhoods that fit their lifestyle and budget throughout the
                 Northeast Atlanta suburban market.
               </p>
@@ -62,7 +66,7 @@ export default function AboutPage() {
                 Credentials &amp; Service Areas
               </h3>
               <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-                <li>Licensed Georgia Real Estate Agent</li>
+                <li>Licensed Georgia Real Estate — {SITE_NAME}</li>
                 <li>Buford · Suwanee · Duluth · Lawrenceville · Sugar Hill · Cumming · Dacula</li>
                 <li>First-time buyers · Move-up buyers · Sellers · Relocation</li>
                 <li>Equal Housing Opportunity</li>

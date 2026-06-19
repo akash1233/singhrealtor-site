@@ -22,7 +22,7 @@ export function ValuationCTA() {
           </h2>
           <p className="mt-4 leading-relaxed text-navy-200">
             Get a complimentary market analysis based on recent sales in your
-            Northeast Atlanta neighborhood. Shweta will walk you through what
+            Northeast Atlanta neighborhood. Our team will walk you through what
             buyers are paying in Gwinnett and Forsyth County today.
           </p>
           <Link

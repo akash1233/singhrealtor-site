@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import type { LeadInput } from "@/lib/schemas";
+import { SITE_NAME } from "@/lib/site-content";
 
 interface ContactFormProps {
   source?: LeadInput["source"];
@@ -65,7 +66,7 @@ export function ContactForm({ source = "Website", className }: ContactFormProps)
         <div className="rounded-xl border border-green-200 bg-green-50 p-6 text-center">
           <p className="font-medium text-green-900">Thank you for reaching out!</p>
           <p className="mt-2 text-sm text-green-700">
-            Shweta will be in touch within one business day.
+            We will be in touch within one business day.
           </p>
           <Button
             variant="outline"
@@ -121,7 +122,7 @@ export function ContactForm({ source = "Website", className }: ContactFormProps)
           className="mt-1 size-4 rounded border-input"
         />
         <Label htmlFor="consent" className="text-sm text-muted-foreground">
-          I agree to be contacted by Shweta Singh Realty regarding my inquiry.
+          I agree to be contacted by {SITE_NAME} regarding my inquiry.
         </Label>
       </div>
 

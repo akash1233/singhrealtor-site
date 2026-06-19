@@ -30,7 +30,7 @@ export async function FeaturedListings() {
               href="/contact"
               className="text-xs font-medium uppercase tracking-[0.2em] text-muted-foreground underline-offset-4 hover:text-navy-900 hover:underline"
             >
-              Contact Shweta
+              Contact Us
             </Link>
           </div>
         </div>

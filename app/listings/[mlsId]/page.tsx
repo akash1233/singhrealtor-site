@@ -101,7 +101,7 @@ export default async function ListingDetailPage({
               Interested in this home?
             </h2>
             <p className="mt-2 text-sm text-muted-foreground">
-              Contact Shweta to schedule a showing or ask questions about this
+              Contact us to schedule a showing or ask questions about this
               property.
             </p>
             <Link

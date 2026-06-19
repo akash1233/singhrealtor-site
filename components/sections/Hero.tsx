@@ -74,7 +74,7 @@ export function Hero() {
             href="/about"
             className="inline-flex h-11 items-center justify-center border border-white/50 px-8 text-xs font-medium uppercase tracking-[0.2em] text-white transition-colors hover:border-white hover:bg-white/10"
           >
-            About Shweta
+            About Us
           </Link>
         </div>
       </div>

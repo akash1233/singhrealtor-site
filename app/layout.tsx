@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Inter } from "next/font/google";
+import { SITE_NAME } from "@/lib/site-content";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { UmamiAnalytics } from "@/components/layout/UmamiAnalytics";
@@ -18,16 +19,16 @@ const playfair = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   title: {
-    default: "Shweta Singh Realty | Northeast Atlanta Suburbs",
-    template: "%s | Shweta Singh Realty",
+    default: `${SITE_NAME} | Northeast Atlanta Suburbs`,
+    template: `%s | ${SITE_NAME}`,
   },
   description:
-    "Buy or sell homes in Northeast Atlanta suburbs — Buford, Suwanee, Duluth, Lawrenceville, Sugar Hill, Cumming, and Gwinnett & Forsyth County with Shweta Singh.",
+    "Buy or sell homes in Northeast Atlanta suburbs — Buford, Suwanee, Duluth, Lawrenceville, Sugar Hill, Cumming, and Gwinnett & Forsyth County with Singh Realtor LLC.",
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL ?? "https://shwetasinghrealty.com"
   ),
   openGraph: {
-    title: "Shweta Singh Realty",
+    title: SITE_NAME,
     description:
       "Northeast Atlanta suburban real estate — friendly, local help for buyers and sellers.",
     locale: "en_US",

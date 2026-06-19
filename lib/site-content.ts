@@ -1,5 +1,9 @@
 /** Site constants and curated imagery for Northeast Atlanta suburban real estate */
 
+export const SITE_NAME = "Singh Realtor LLC";
+export const AGENT_NAME = "Shweta Singh";
+export const SITE_EMAIL = "shweta@shwetasinghrealty.com";
+
 export const SITE_PHONE = "9802547720";
 export const SITE_PHONE_DISPLAY = "(980) 254-7720";
 export const SITE_PHONE_TEL = "+19802547720";
@@ -33,7 +37,7 @@ export const heroSlides = [
 
 export const agentPhoto = {
   src: "/images/shweta-singh.webp",
-  alt: "Shweta Singh — Northeast Atlanta suburban real estate agent",
+  alt: `${AGENT_NAME} — ${SITE_NAME} real estate agent`,
 };
 
 export const featuredListings = [

@@ -56,7 +56,7 @@ export function Header() {
               overlayMode ? "text-white" : "text-navy-900"
             )}
           >
-            Shweta Singh
+            Singh Realtor
           </span>
           <span
             className={cn(
@@ -64,7 +64,7 @@ export function Header() {
               overlayMode ? "text-gold-400" : "text-gold-600"
             )}
           >
-            Realty
+            LLC
           </span>
         </Link>
 
